@@ -1,0 +1,2 @@
+# LeetCode
+Some LeetCode practice
