@@ -8,18 +8,18 @@
 #include <vector>
 #include <list>
 
-#include "IHashTable.h"
+#include "IHashMap.h"
 
-namespace LeetCode::HashTable
+namespace LeetCode::HashMap
 {
-    class HashTableSimple final : public IHashTable
+    class HashMap final : public IHashMap
     {
         using Table = std::vector<std::list<std::pair<int, int>>>;
 
     public:
-        HashTableSimple(int tableSize, int hashValue)
+        HashMap(int size, int hashValue)
             : _hashValue(hashValue)
-            , _table(tableSize)
+            , _table(size)
         {
         }
 

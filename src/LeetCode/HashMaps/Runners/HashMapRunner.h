@@ -5,23 +5,23 @@
 #include "Solutions/ISolutionRunner.h"
 #include "Solutions/SolutionFactory.h"
 
-#include "LeetCode/HashTables/IHashTable.h"
-#include "LeetCode/HashTables/HashTableSimple.h"
+#include "LeetCode/HashMaps/IHashMap.h"
+#include "LeetCode/HashMaps/HashMap.h"
 
-namespace LeetCode::HashTable
+namespace LeetCode::HashMap
 {
-    class HashTableSimpleRunner : public ISolutionRunner
+    class HashMapRunner : public ISolutionRunner
     {
     public:
         void run() override
         {
-            std::unique_ptr<IHashTable> ht = std::make_unique<HashTableSimple>(4, 2);
+            std::unique_ptr<IHashMap> ht = std::make_unique<HashMap>(4, 2);
 
             auto printGet = [&ht](const int value){
                 std::cout << "\n" << "Table contains(" << value << ") = " << std::boolalpha << ht->get(value) << "\n";
             };
 
-            std::cout << "Running HashTableSimple" << "\n";
+            std::cout << "Running HashMap" << "\n";
             ht->print();
 
             for (const auto& p : std::initializer_list<std::pair<int, int>>{
@@ -41,5 +41,5 @@ namespace LeetCode::HashTable
         }
     };
 
-    REGISTER_SOLUTION_RUNNER("HashTableSimple", HashTableSimpleRunner)
+    REGISTER_SOLUTION_RUNNER("HashMap", HashMapRunner)
 }

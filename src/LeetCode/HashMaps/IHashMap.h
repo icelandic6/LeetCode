@@ -1,11 +1,11 @@
 #pragma once
 
-namespace LeetCode::HashTable
+namespace LeetCode::HashMap
 {
-    class IHashTable
+    class IHashMap
     {
     public:
-        virtual ~IHashTable() = default;
+        virtual ~IHashMap() = default;
 
         virtual void put(int key, int value) = 0;
         virtual void remove(int key) = 0;
