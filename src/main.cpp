@@ -9,9 +9,12 @@
 #include "Templates/HashSets/Runners/HashSetSimpleRunner.h"
 #include "Templates/HashSets/Runners/HashSetGrowingRunner.h"
 
+#include "LeetCode/HashMaps/Runners/HashMapRunner.h"
+#include "Templates/HashMaps/Runners/HashMapRunner.h"
+
 int main()
 {
-    const std::string defaultSolutionName = "HashTableSimpleT";
+    const std::string defaultSolutionName = "HashSetSimpleRunner";
     std::string solutionName;
     std::cout << "Enter solution name you want to run: ";
 
