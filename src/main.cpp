@@ -4,6 +4,11 @@
 #include "Solutions/ISolutionRunner.h"
 #include "Solutions/SolutionFactory.h"
 
+#include "LeetCode/HashSets/Runners/HashSetSimpleRunner.h"
+#include "LeetCode/HashSets/Runners/HashSetGrowingRunner.h"
+#include "Templates/HashSets/Runners/HashSetSimpleRunner.h"
+#include "Templates/HashSets/Runners/HashSetGrowingRunner.h"
+
 int main()
 {
     const std::string defaultSolutionName = "HashTableSimpleT";
