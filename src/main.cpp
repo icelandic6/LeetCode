@@ -11,13 +11,14 @@
 
 #include "LeetCode/HashSets/Runners/HashSetContainsDuplicateRunner.h"
 #include "LeetCode/HashSets/Runners/HashSetSingleNumberRunner.h"
+#include "LeetCode/HashSets/Runners/HashSetTwoArraysIntersectionRunner.h"
 
 #include "LeetCode/HashMaps/Runners/HashMapRunner.h"
 #include "Templates/HashMaps/Runners/HashMapRunner.h"
 
 int main()
 {
-    const std::string defaultSolutionName = "HashSetSingleNumber";
+    const std::string defaultSolutionName = "HashSetTwoArraysIntersection";
     std::string solutionName;
     std::cout << "Enter solution name you want to run: ";
 
