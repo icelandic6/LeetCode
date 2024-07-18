@@ -3,6 +3,7 @@ Just a repo for some LeetCode practice
 
 ## Requirements:
 - Microsoft Visual Studio 2022
+- CMake 3.x
 
 ## How to open and run build:
 - Run "_generate_solution_cmake.cmd_" to generate solution build
