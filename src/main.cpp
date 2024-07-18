@@ -9,12 +9,14 @@
 #include "Templates/HashSets/Runners/HashSetSimpleRunner.h"
 #include "Templates/HashSets/Runners/HashSetGrowingRunner.h"
 
+#include "LeetCode/HashSets/Runners/HashSetContainsDuplicateRunner.h"
+
 #include "LeetCode/HashMaps/Runners/HashMapRunner.h"
 #include "Templates/HashMaps/Runners/HashMapRunner.h"
 
 int main()
 {
-    const std::string defaultSolutionName = "HashSetSimpleRunner";
+    const std::string defaultSolutionName = "HashSetContainsDuplicate";
     std::string solutionName;
     std::cout << "Enter solution name you want to run: ";
 
