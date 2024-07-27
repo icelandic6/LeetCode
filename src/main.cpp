@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "ClimbingStairs";
+    const std::string defaultSolutionName = "BestTimeToBuyAndSellStock";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
