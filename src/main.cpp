@@ -5,10 +5,10 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "HashMapIsomorphicStrings";
+    const std::string defaultSolutionName = "MissingNumber";
     std::string solutionName;
-    std::cout << "Enter solution name you want to run: ";
 
+    std::cout << "Enter solution name you want to run: ";
     std::getline(std::cin, solutionName);
 
     if (solutionName.empty()) {
