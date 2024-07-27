@@ -16,3 +16,4 @@
 #include "Templates/HashMaps/Runners/HashMapRunner.h"
 
 #include "LeetCode/HashMaps/Runners/HashMapTwoSumRunner.h"
+#include "LeetCode/HashMaps/Runners/HashMapIsomorphicStringsRunner.h"
