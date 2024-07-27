@@ -14,3 +14,5 @@
 
 #include "LeetCode/HashMaps/Runners/HashMapRunner.h"
 #include "Templates/HashMaps/Runners/HashMapRunner.h"
+
+#include "LeetCode/HashMaps/Runners/HashMapTwoSumRunner.h"

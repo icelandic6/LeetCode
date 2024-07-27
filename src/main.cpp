@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "HashMap";
+    const std::string defaultSolutionName = "HashMapTwoSum";
     std::string solutionName;
     std::cout << "Enter solution name you want to run: ";
 
