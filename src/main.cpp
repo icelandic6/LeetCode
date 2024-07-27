@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "MissingNumber";
+    const std::string defaultSolutionName = "FindAllNumbersDisappeared";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
