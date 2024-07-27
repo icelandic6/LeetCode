@@ -20,3 +20,4 @@
 
 #include "LeetCode/Problems/MissingNumber.h"
 #include "LeetCode/Problems/FindAllNumbersDisappeared.h"
+#include "LeetCode/Problems/ClimbingStairs.h"
