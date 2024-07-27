@@ -34,7 +34,6 @@ namespace LeetCode::HashMap
             for (const auto& textsPair : isoTexts) {
                 bool result = hm->isIsomorphic(textsPair.first, textsPair.second);
                 std::cout << "\"" << textsPair.first << "\" & \"" << textsPair.second << "\" = " << std::boolalpha << result << "\n";
-
             }
 
             std::cout << "\n\n";
