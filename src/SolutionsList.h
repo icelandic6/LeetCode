@@ -22,3 +22,4 @@
 #include "LeetCode/Problems/FindAllNumbersDisappeared.h"
 #include "LeetCode/Problems/ClimbingStairs.h"
 #include "LeetCode/Problems/BestTimeToBuyAndSellStock.h"
+#include "LeetCode/Problems/RangeSumQuery.h"
