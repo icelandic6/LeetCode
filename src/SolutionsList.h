@@ -23,3 +23,6 @@
 #include "LeetCode/Problems/ClimbingStairs.h"
 #include "LeetCode/Problems/BestTimeToBuyAndSellStock.h"
 #include "LeetCode/Problems/RangeSumQuery.h"
+#include "LeetCode/Problems/CountingBits.h"
+
+#include "LeetCode/Problems/LinkedListCycle.h"
