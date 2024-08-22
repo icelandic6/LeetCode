@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "RangeSumQuery";
+    const std::string defaultSolutionName = "CountingBits";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
