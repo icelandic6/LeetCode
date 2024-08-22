@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "RemoveLinkedListElements";
+    const std::string defaultSolutionName = "MergeTwoSortedLists";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
