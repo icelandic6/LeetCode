@@ -34,3 +34,4 @@
 #include "LeetCode/Problems/MergeTwoSortedLists.h"
 
 #include "LeetCode/Problems/MeetingRooms.h"
+#include "LeetCode/Problems/BinarySearch.h"
