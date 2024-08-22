@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "PalindromeLinkedList";
+    const std::string defaultSolutionName = "RemoveLinkedListElements";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
