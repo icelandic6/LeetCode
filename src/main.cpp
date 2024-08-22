@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "ReverseLinkedList";
+    const std::string defaultSolutionName = "PalindromeLinkedList";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";

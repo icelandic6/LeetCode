@@ -28,3 +28,4 @@
 #include "LeetCode/Problems/LinkedListCycle.h"
 #include "LeetCode/Problems/MiddleOfLinkedList.h"
 #include "LeetCode/Problems/ReverseLinkedList.h"
+#include "LeetCode/Problems/PalindromeLinkedList.h"
