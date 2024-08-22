@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "MergeTwoSortedLists";
+    const std::string defaultSolutionName = "MeetingRooms";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
