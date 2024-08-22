@@ -5,7 +5,7 @@
 
 int main()
 {
-    const std::string defaultSolutionName = "LinkedListCycle";
+    const std::string defaultSolutionName = "ReverseLinkedList";
     std::string solutionName;
 
     std::cout << "Enter solution name you want to run: ";
